@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@400;700&display=swap"
+    rel="stylesheet">
+  <title>Document</title>
+</head>
+
+<body>
+  <section class="container">
+    <form action="#" id="form-one">
+
+
+      <h2>Dados do Úsuario</h1>
+
+
+        <label for="name">Nome:</label>
+        <input id="name" type="text" name="name" required="required" placeholder="Digite seu nome"/>
+
+        <label for="-email">E-mail:</label>
+        <input id="email" type="email" name="email" required="required" placeholder="Digite seu e-mail"/>
+
+
+        <label for="tel">Telefone 1:</label>
+        <input id="phone" type="tel" name="phone" required="required" placeholder="(DDD) 9xxxx-xxxx"/>
+
+        <label for="tel">Telefone 2:</label>
+        <input id="phone" type="tel" name="phone" required="required" placeholder="(DDD) 9xxxx-xxxx"/>
+
+      </form>
+
+        <form action="#" id="form-two">
+        <h2>Dados do Endereço</h2>
+        <label for="cep">CEP:</label>
+        <input id="cep" type="number" name="name" maxlength="8" required="required" placeholder="00000-000">
+
+        <label for="adress">Rua ou Avenida:</label>
+        <input id="adress" type="text" name="adress" required="required" placeholder="Rua/Av."/>
+
+        <label for="numeric">N°:</label>
+        <input id="numeric" type="number" name="numeric" placeholder="1234"/>
+
+        <label for="snumeric">SN:</label>
+        <input id="snumeric" type="checkbox" name="snumeric"/><br>
+
+        <label for="district" class="district">Bairro:</label>
+        <input id="district" type="text" name="district" required="required" placeholder="Digite seu bairro"/>
+
+        <label for="city">Cidade:</label>
+        <input id="city" type="text" name="city" required="required" placeholder="Digite o nome de sua cidade"/>
+
+      </form>
+
+      <form action="#" id="form-three">
+        <h2>Dados para Pagamento</h2>
+        <label for="card">Número do Cartão:</label>
+        <input id="card" type="number" name="card" required="required" placeholder="0000 0000 0000 0000" />
+
+        <label for="holder">Nome do Titular:</label>
+        <input id="holder" type="text" name="holder" required="required" placeholder="Nome impresso no cartão"/>
+
+        <label for="shelflife">Validade:</label>
+        <input id="shelflife" type="date" name="shelflife" required="required"/>
+
+        <label for="cvv">CVV:</label>
+        <input id="cvv" type="password" name="cvv" required="required" placeholder="Ex.:123"/>
+
+    </form>
+
+    <div class="buttons">
+      <button type="button" class="back">Voltar</button>
+      <button type="submit" class="send">Enviar</button>
+    </div>
+  </section>
+</body>
+
+</html>
